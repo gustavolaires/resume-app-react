@@ -1,5 +1,3 @@
-// import "./EducationListDataType.css";
-
 function EducationListDataType(props) {
   const content = props.content.map((value, index) => (
     <div key={props.keyword + index}>

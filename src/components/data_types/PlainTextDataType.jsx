@@ -4,10 +4,8 @@ function PlainTextDataType(props) {
   );
 
   return (
-    <>
-      {contentList}
-    </>
-  )
+    <>{contentList}</>
+  );
 }
 
 export default PlainTextDataType

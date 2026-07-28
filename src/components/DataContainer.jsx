@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase, faChartPie, faGraduationCap, faHandHoldingHeart, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 
-import "./DataContainer.css";
-
 import PlainTextDataType from "./data_types/PlainTextDataType";
 import ExperienceListDataType from "./data_types/ExperienceListDataType";
 import EducationListDataType from "./data_types/EducationListDataType"
@@ -13,17 +11,17 @@ function DataContainer(props) {
 
   const get_icon = info_data => {
     if (info_data.icon == "contact") {
-      return <FontAwesomeIcon icon={faPhone} />;
+      return <FontAwesomeIcon icon={faPhone} style={{color: "#FF4F29"}}/>;
     } else if (info_data.icon == "education") {
-      return <FontAwesomeIcon icon={faGraduationCap} />;
+      return <FontAwesomeIcon icon={faGraduationCap} style={{color: "#FF4F29"}}/>;
     } else if (info_data.icon == "experience") {
-      return <FontAwesomeIcon icon={faBriefcase} />;
+      return <FontAwesomeIcon icon={faBriefcase} style={{color: "#FF4F29"}}/>;
     } else if (info_data.icon == "me") {
-      return <FontAwesomeIcon icon={faUser} />;
+      return <FontAwesomeIcon icon={faUser} style={{color: "#FF4F29"}}/>;
     } else if (info_data.icon == "skills") {
-      return <FontAwesomeIcon icon={faChartPie} />;
+      return <FontAwesomeIcon icon={faChartPie} style={{color: "#FF4F29"}}/>;
     } else if (info_data.icon == "volunteer") {
-      return <FontAwesomeIcon icon={faHandHoldingHeart} />;
+      return <FontAwesomeIcon icon={faHandHoldingHeart} style={{color: "#FF4F29"}}/>;
     } else {
       return null;
     }
@@ -46,13 +44,13 @@ function DataContainer(props) {
 
   return (
     <>
-      <section className="container-box">
+      <section>
         <div>
           <div className="flex justify-start items-center gap-2">
             { get_icon(data) }
-            <h2 className="text-2xl font-bold">{data.title}</h2>
+            <h2 className="text-2xl font-bold text-[#111F3C]">{data.title}</h2>
           </div>
-          <div className="bg-black w-[52px] h-[8px] mt-0.5"></div>
+          <div className="w-[52px] h-[8px] mt-0.5 bg-[#111F3C]"></div>
         </div>
         <article className="flex flex-col gap-4 mt-2">
           { get_content(data) }
