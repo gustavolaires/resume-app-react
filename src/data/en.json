@@ -1,0 +1,235 @@
+{
+  "name": "Gustavo L A Costa",
+  "function": "Software Developer",
+  "details": [
+    {
+      "title": "ABOUT ME",
+      "icon": null,
+      "type": "text",
+      "content": [
+        "Creative, versatile, and determined software developer with over three years of experience. Always looking for new knowledge and challenges. Seeking a company to apply my skills, solve problems, and develop valuable products for its clients."
+      ]
+    },
+    {
+      "title": "CONTACT",
+      "icon": null,
+      "type": "list",
+      "typeOptions": {
+        "bulletPoints": false,
+        "itemIcon": true,
+        "key": false,
+        "value": true,
+        "valueAsChart": false
+      },
+      "content": [
+        {
+          "key": "Phone",
+          "value": "+55 84 998177563",
+          "icon": "whatsapp"
+        },
+        {
+          "key": "Email",
+          "value": "gustavolaires@hotmail.com",
+          "icon": "email2"
+        },
+        {
+          "key": "LinkedIn",
+          "value": "linkedin.com/in/gustavolaires",
+          "icon": "linkedin"
+        },
+        {
+          "key": "Github",
+          "value": "github.com/gustavolaires",
+          "icon": "github"
+        },
+        {
+          "key": "Address",
+          "value": "31 Major Ajax St., Caicó, RN, Brazil 59300-000",
+          "icon": "address"
+        }
+      ]
+    },
+    {
+      "title": "SKILLS",
+      "icon": null,
+      "type": "list",
+      "typeOptions": {
+        "bulletPoints": true,
+        "itemIcon": false,
+        "key": true,
+        "value": false,
+        "valueAsChart": true
+      },
+      "content": [
+        {
+          "key": "Elixir",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Ruby",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Python",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Javascript",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Bootstrap",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Tailwind",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Phoenix",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Ruby on Rails",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Django",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "SQL",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Git",
+          "value": 100,
+          "icon": null
+        },
+        {
+          "key": "Docker",
+          "value": 100,
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION",
+      "icon": "faGraduationCap",
+      "type": "education-list",
+      "content": [
+        {
+          "institution": "IFRN",
+          "institution-abbreviation": "IFRN",
+          "institution-url": "",
+          "level": null,
+          "begin": "2018",
+          "end": "2021",
+          "course": "Gradution in Analysis and Systems Development",
+          "laureated": "laureated"
+        },
+        {
+          "institution": "UFRN",
+          "institution-abbreviation": "UFRN",
+          "institution-url": "",
+          "level": null,
+          "begin": "2010",
+          "end": "2017",
+          "course": "BS Electrical Engineering",
+          "laureated": null
+        }
+      ]
+    },
+    {
+      "title": "EXPERIENCE",
+      "icon": null,
+      "type": "experience-list",
+      "typeOptions": {
+        "bulletPoints": true
+      },
+      "content": [
+        {
+          "company": "Credere",
+          "company-abbreviation": "Credere",
+          "company-url": "",
+          "level": null,
+          "begin": "Jan 2021",
+          "end": "Present",
+          "function": "Backend Developer",
+          "responsibilities": [
+            "Development and maintenance of backend Web Application using Ruby on Rails (Ruby);"
+          ]
+        },
+        {
+          "company": "Activesoft Consultant",
+          "company-abbreviation": "Activesoft",
+          "company-url": "",
+          "level": null,
+          "begin": "Feb 2019",
+          "end": "Nov 2020",
+          "function": "Full Stack Developer Intern",
+          "responsibilities": [
+            "Web Application development and maintenance using Django and Django REST framework (Python) on backend and React (JavaScript) on frontend;",
+            "Data migrations of new clients using SQL Server scripts;"
+          ]
+        },
+        {
+          "company": "Secretariat of Distance Education - UFRN",
+          "company-abbreviation": "SEDIS/UFRN",
+          "company-url": "",
+          "level": null,
+          "begin": "May 2018",
+          "end": "Feb 2019",
+          "function": "Scholarship student",
+          "responsibilities": [
+            "Plugin development for the AVASUS, which is an educational application implemented in Moodle (PHP)"
+          ]
+        },
+        {
+          "company": "Digital Metropolis Institute - UFRN",
+          "company-abbreviation": "IMD/UFRN",
+          "company-url": "",
+          "level": null,
+          "begin": "Oct 2013",
+          "end": "Jul 2016",
+          "function": "Scholarship student",
+          "responsibilities": [
+            "Development of system focused on making IDM a smart environment, using the Context Toolkit (Java) and embedded devices."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "VOLUNTEER EXPERIENCE",
+      "icon": null,
+      "type": "experience-list",
+      "typeOptions": {
+        "bulletPoints": true
+      },
+      "content": [
+        {
+          "company": "DeMolay's Order",
+          "company-abbreviation": "DeMolay",
+          "company-url": "",
+          "level": "Member",
+          "begin": "Apr 2010",
+          "end": "Jun 2012",
+          "function": "Backend Developer",
+          "responsibilities": [
+            "Part of a group that organized some social actions, like collecting donations for NGOs, visiting and promoting events in nursing homes, and delivering food for homeless people;"
+          ]
+        }
+      ]
+    }
+  ]
+}

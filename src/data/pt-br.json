@@ -1,0 +1,82 @@
+{
+  "name": "Gustavo Laires Albuquerque Costa",
+  "function": "Desenvolvedor de Software",
+  "details": [
+    {
+      "title": "Sobre mim",
+      "type": "text",
+      "content": ""
+    },
+    {
+      "title": "Contato",
+      "type": "list-bullet-points",
+      "content": [
+        {
+          "key": "Telefone",
+          "value": "+55 84 9 8888-7777",
+          "icon": null
+        },
+        {
+          "key": "Email",
+          "value": "my@email.com",
+          "icon": null
+        },
+        {
+          "key": "Github",
+          "value": "",
+          "icon": null
+        },
+        {
+          "key": "Endereço",
+          "value": "",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Habilidades",
+      "type": "list-progress-bar",
+      "content": [
+        {
+          "key": "Elixir",
+          "value": 100,
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Formação",
+      "type": "list-topics-education",
+      "content": [
+        {
+          "institution": "",
+          "institution-abbreviation": "",
+          "institution-url": "",
+          "level": "",
+          "begin": "",
+          "end": "",
+          "course": "",
+          "laureated": false
+        }
+      ]
+    },
+    {
+      "title": "Experiência",
+      "type": "list-topics-experience",
+      "content": [
+        {
+          "company": "",
+          "company-abbreviation": "",
+          "company-url": "",
+          "level": "",
+          "begin": "",
+          "end": "",
+          "function": "",
+          "responsibilities": [
+            
+          ]
+        }
+      ]
+    }
+  ]
+}
