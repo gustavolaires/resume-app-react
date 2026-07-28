@@ -4,34 +4,22 @@ import DataContainer from './components/DataContainer'
 import page from './data/en.json'
 
 function Base() {
-
-  // console.log(page);
   return (
-    <>
-      <div id='main-container'>
-        <DataContainer data={page.details[0]}/>
+    <div className='flex flex-row justify-center max-w-7xl mx-auto'>
+      <div id='main-container' className='flex flex-col md:flex-row gap-6'>
+        <div className='flex flex-col gap-6 md:max-w-md'>
+          <DataContainer data={page.details[0]}/>
+          <DataContainer data={page.details[1]}/>
+          <DataContainer data={page.details[2]}/>
+          <DataContainer data={page.details[3]}/>
+        </div>
         
-        <br />
-
-        <DataContainer data={page.details[1]}/>
-        
-        <br />
-
-        <DataContainer data={page.details[2]}/>
-        
-        <br />
-
-        <DataContainer data={page.details[3]}/>
-
-        <br />
-
-        <DataContainer data={page.details[4]}/>
-
-        <br />
-
-        <DataContainer data={page.details[5]}/>
+        <div className='flex flex-col gap-6 md:min-w-md'>
+          <DataContainer data={page.details[4]}/>
+          <DataContainer data={page.details[5]}/>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 

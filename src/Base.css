@@ -1,5 +1,7 @@
+@import "tailwindcss";
+
 #main-container {
+  font-family: Helvetica, Roboto, Arial, sans-serif;
   background-color:cadetblue;
   border: 2px solid black;
-  max-width: 700px;
 }

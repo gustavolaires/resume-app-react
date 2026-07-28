@@ -4,7 +4,7 @@
   "details": [
     {
       "title": "ABOUT ME",
-      "icon": null,
+      "icon": "me",
       "type": "text",
       "content": [
         "Creative, versatile, and determined software developer with over three years of experience. Always looking for new knowledge and challenges. Seeking a company to apply my skills, solve problems, and develop valuable products for its clients."
@@ -12,7 +12,7 @@
     },
     {
       "title": "CONTACT",
-      "icon": null,
+      "icon": "contact",
       "type": "list",
       "typeOptions": {
         "bulletPoints": false,
@@ -51,7 +51,7 @@
     },
     {
       "title": "SKILLS",
-      "icon": null,
+      "icon": "skills",
       "type": "list",
       "typeOptions": {
         "bulletPoints": true,
@@ -125,7 +125,7 @@
     },
     {
       "title": "EDUCATION",
-      "icon": "faGraduationCap",
+      "icon": "education",
       "type": "education-list",
       "content": [
         {
@@ -152,7 +152,7 @@
     },
     {
       "title": "EXPERIENCE",
-      "icon": null,
+      "icon": "experience",
       "type": "experience-list",
       "typeOptions": {
         "bulletPoints": true
@@ -211,20 +211,20 @@
     },
     {
       "title": "VOLUNTEER EXPERIENCE",
-      "icon": null,
+      "icon": "volunteer",
       "type": "experience-list",
       "typeOptions": {
-        "bulletPoints": true
+        "bulletPoints": false
       },
       "content": [
         {
           "company": "DeMolay's Order",
           "company-abbreviation": "DeMolay",
           "company-url": "",
-          "level": "Member",
+          "level": null,
           "begin": "Apr 2010",
           "end": "Jun 2012",
-          "function": "Backend Developer",
+          "function": "Member",
           "responsibilities": [
             "Part of a group that organized some social actions, like collecting donations for NGOs, visiting and promoting events in nursing homes, and delivering food for homeless people;"
           ]

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faChartPie, faGraduationCap, faHandHoldingHeart, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 
 import "./DataContainer.css";
 
@@ -10,11 +10,20 @@ import TopicListDataType from "./data_types/TopicListDataType";
 
 function DataContainer(props) {
   const data = props.data;
-  // console.log(data)
 
   const get_icon = info_data => {
-    if (info_data.icon == "faGraduationCap") {
+    if (info_data.icon == "contact") {
+      return <FontAwesomeIcon icon={faPhone} />;
+    } else if (info_data.icon == "education") {
       return <FontAwesomeIcon icon={faGraduationCap} />;
+    } else if (info_data.icon == "experience") {
+      return <FontAwesomeIcon icon={faBriefcase} />;
+    } else if (info_data.icon == "me") {
+      return <FontAwesomeIcon icon={faUser} />;
+    } else if (info_data.icon == "skills") {
+      return <FontAwesomeIcon icon={faChartPie} />;
+    } else if (info_data.icon == "volunteer") {
+      return <FontAwesomeIcon icon={faHandHoldingHeart} />;
     } else {
       return null;
     }
@@ -38,14 +47,14 @@ function DataContainer(props) {
   return (
     <>
       <section className="container-box">
-        <div className="container-header">
-          <div className="container-header-content">
+        <div>
+          <div className="flex justify-start items-center gap-2">
             { get_icon(data) }
-            <h2>{data.title}</h2>
+            <h2 className="text-2xl font-bold">{data.title}</h2>
           </div>
-          <div className="container-header-line"></div>
+          <div className="bg-black w-[52px] h-[8px] mt-0.5"></div>
         </div>
-        <article className="container-body">
+        <article className="flex flex-col gap-4 mt-2">
           { get_content(data) }
         </article>
       </section>
